@@ -9,9 +9,13 @@ There is also Rust implementation of the same problem available at https://githu
 
 ## Benchmarks Overview
 
-1) Rust average of 3 runs 8.437ms
-2) Go average of 3 runs 9.136ms
-3) C++ average of 3 runs 14.638ms
+Please note that I'm considering only processing times. 
+
+Averages of 3 rans:
+
+1) Rust: 8.437ms
+2) Go: 9.136ms
+3) C++: 14.638ms
 
 ## Go Benchmarks
 

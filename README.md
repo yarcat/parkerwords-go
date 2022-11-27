@@ -11,7 +11,7 @@ There is also Rust implementation of the same problem available at https://githu
 
 Please note that I'm considering only processing times. 
 
-Averages of 3 rans:
+Averages of 3 runs:
 
 1) Rust: 8.437ms
 2) Go: 9.136ms

@@ -5,7 +5,7 @@ Go implementation of the problem originally discussed at https://www.youtube.com
 This solution is based on the https://github.com/oisyn/parkerwords/ and utilizes
 bit sets and go-routines to make things happen in parallel.
 
-There is also Rust implementation of the same problem available at github.com/yarcat/parkerwords-rs.
+There is also Rust implementation of the same problem available at https://github.com/yarcat/parkerwords-rs.
 
 ## Benchmarks Overview
 

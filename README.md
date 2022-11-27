@@ -9,6 +9,8 @@ There is also Rust implementation of the same problem available at https://githu
 
 ## Benchmarks Overview
 
+Processor	Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, 4200 Mhz, 4 Core(s), 8 Logical Processor(s)
+
 Please note that I'm considering only processing times. 
 
 Averages of 3 runs:

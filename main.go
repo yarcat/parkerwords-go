@@ -103,12 +103,13 @@ func findAllPar(index *index) (res [][5]uint32) {
 	return res
 }
 
-//go:embed words_alpha.txt
-var wordsData string
-
 func main() {
 	start := time.Now()
-	index := newIndexFromWords(wordsData)
+	wordsData, err := os.ReadFile("words_alpha.txt")
+	if err != nil {
+		panic(err)
+	}
+	index := newIndexFromWords(string(wordsData))
 
 	startAlgo := time.Now()
 	res := findAllPar(&index)
